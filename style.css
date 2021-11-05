@@ -27,8 +27,10 @@ nav .nav-link a {
 =======
 }
 .body{
+    padding: 90px 0;
     width: 80%;
     margin: auto;
+
 }
 .dflex{
     display: flex;
@@ -69,5 +71,10 @@ button{
 .card .card-body img{
     width: 100px;
     height: 100px;
->>>>>>> 2535bb328e2012ad721a10aff3c6fd9a69fa63eb
+}
+footer{
+    background: grey;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
