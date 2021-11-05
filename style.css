@@ -1,4 +1,26 @@
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:1rem;
+    border-bottom: 2px dashed;
+    font-size: 1rem;
+}
+nav .nav-link{
+    padding: 10px;
+}
+nav .nav-link a {
+    background: purple;
+}
+.active{
+    background: purple;
+    color: #fff;
+    height: 1.5rem;
+    border-radius: 0.3rem;
 }
