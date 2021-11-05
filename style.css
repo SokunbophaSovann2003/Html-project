@@ -2,3 +2,47 @@ body{
     margin: 0;
     padding: 0;
 }
+.body{
+    width: 80%;
+    margin: auto;
+}
+.dflex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.right{
+    height: 50vh;
+}
+img{
+    height: 50vh;
+    border-radius: 10px;
+}
+.button{
+    margin: 60px;
+    text-align: center;
+}
+button{
+    padding: 8px 70px;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+    background: purple;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.card .card-body{
+    padding: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.card .card-body img{
+    width: 100px;
+    height: 100px;
+}
